@@ -1,1 +1,22 @@
+1. Ouput the purpose of the the program using 
+2. Ask the user for the type of hill using "What is the hill type?"
+3. If hillType == normal
+  a. height = 46
+  b. pointsPerMeter = 2
+  c. par = 90
+4. Otherwise
+  a. height = 70
+  b. pointsPerMeter = 1.8
+  c. par = 120
+5. Calculate the time in the air using sqrt((2*height)/9.8)
+6. Ask for the jumper's speed using "What was the jumper's speed?"
+7. Calculate the distance traveled using jumper's speed * time in the air
+8. Calculate points earned using 60 + (distance - par) * pointsPerMeter
+9. Output " Distance Travelled:(x) Points Earned: (y)"
+10.If pointsEarned >= 61
+  a. output "Great job for doing better than par!"
+11. Otherwise if pointsEarned < 10
+  a. output "What happend??"
+12. Otherwise
+  a. output "Sorry you didn't go very far"
 
